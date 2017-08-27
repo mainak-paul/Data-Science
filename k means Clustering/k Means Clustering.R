@@ -147,6 +147,9 @@ p+geom_point(aes(colour=as.factor(cluster)))+
 p+geom_point(aes(colour=as.factor(cluster),size=Detergents_Paper))+
   facet_grid(Region~Channel) #You see some impact
 
+p+geom_point(aes(colour=as.factor(cluster),size=Frozen))+
+  facet_grid(Region~Channel)
+
 
 #With the above plots we can gain insights about various clusters and their impact
 
